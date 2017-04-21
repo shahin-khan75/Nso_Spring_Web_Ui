@@ -1,0 +1,140 @@
+.navbar-default {
+	background: $darkBlue;
+	border : 0;
+	margin-bottom: 0;
+	z-index: 10000;
+	@include border-radius(0px);
+}
+.navbar-default .navbar-nav > li > a {
+	color : $white2;
+}
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+	color : $whiteL1;
+	background: $darkBlue1;
+}
+.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:focus {
+	color : $whiteL1;
+}
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+	background-color :$darkBlue1; 
+	color : $white; 
+}
+ .modal-header {
+	background: $greenCol;
+	border-radius: 5px 5px 0 0;
+	border-bottom: 1px solid #658104;
+}
+.modal-header .close {
+	color:#fff;
+	filter: alpha(opacity=100);
+	opacity: 1;
+	padding:0px;
+	height: 20px;
+	font-size: 16px;
+	line-height: 20px;
+	text-align: center;
+	width: 20px;
+	border:1px solid #fff;
+	@include border-radius(50%);
+	span {
+		line-height: normal;
+		position: relative;
+		top:-3px;
+	}
+}
+.modal-title {
+	text-align: center;
+	color:$white;
+	font-size: 18px;
+}
+.modal-footer {
+	text-align: center;
+}
+.btn {
+	padding: 5px 30px;
+}
+/**/
+.greyBtn {
+	@include border-radius(30px);
+	background: $grey2;
+	color:$white;
+	padding: 7px;
+	border:1px solid $grey1;
+	-webkit-transition: all .1s;
+	-moz-transition: all .1s;
+	-o-transition: all .1s;
+	transition: all .1s;
+}
+.greyBtn:hover {
+	background: $darkGrey;
+}
+.actionCol {
+	margin-bottom: 20px;
+}
+.whiteGreyBg {
+	background: #F7F7F7;
+	padding: 15px;
+	border: 1px solid #EEEBEB;
+}
+.iconBtn {
+	padding: 5px 10px;
+	font-size: 18px;
+	@include border-radius(1px);
+	@include box_gradient(#ffffff , #DEDCDC);
+	border:1px solid #E5E5E5;
+	i {
+		padding: 0 5px;
+	}
+	.fa-columns {
+		color :#E8A537;
+	}
+	.fa-cog {
+		color :#81C203;
+	}
+}
+.table-bordered {
+	border-collapse: collapse;
+	border-width: 1px;
+	th {
+		background: #5FACD4;
+		color:#ffffff;
+		font-weight: normal;
+	}
+	tbody tr:nth-child(odd) td {
+		background: #ffffff;
+	}
+	tbody tr:nth-child(even) td {
+		background: #E6E9E4;
+	}
+}
+.table-bordered > thead > tr > td, 
+.table-bordered > thead > tr > th {
+	border-width: 1px;
+}
+.editCret {
+	padding: 0 0 20px 0;
+	a {
+		display: inline-block;
+		margin-right: 10px;
+		height: 30px;
+		width: 30px;
+		@include border-radius(50%);
+		text-align: center;
+		line-height: 30px;
+		background: #F3F3F3;
+		border:1px solid #EDEBEB;
+		color:#5FACD4;
+	}
+	a:hover {
+		background: #ffffff;
+	}
+}
+
+.DisOprcatolog {
+	
+}

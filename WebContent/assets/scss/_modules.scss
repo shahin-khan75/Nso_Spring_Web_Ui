@@ -1,0 +1,220 @@
+/******************************
+Login page start
+******************************/
+#login {
+	height: 100%;
+	background: #0d1a28 url("../img/login-bg.png") no-repeat center top;
+	background-size: cover;
+	text-align: center;
+	padding-top: 60px;
+	.error { color:yellow;}
+	.logoDiv { padding-bottom: 25px;}
+	.formHeading {padding-bottom: 10px; color :$whiteL1;}
+	.icnLog {
+		border-bottom: 1px solid #aeaeae;
+		display: table;
+		width: 100%;
+		padding:0 15px 0px 15px;
+		margin-bottom: 25px;
+		img {
+			vertical-align: bottom;
+		}
+		input {
+			border:0;
+			background:transparent;
+			width: 100%;
+			color: $whiteL1;
+		}
+		span {
+			display: table-cell;
+			
+			text-align: left;
+
+		}
+		.logImg {
+			width: 10%;
+			min-width: 30px;
+			padding-bottom: 7px;
+		}
+		.logInp {
+			width: 90%;
+			vertical-align: middle;
+		}
+	}
+	.login_Form {
+		width:375px;
+		padding: 25px 40px 40px 40px;
+		margin: 0 auto;
+		@include border-radius(10px);
+		@include background-opacity($darkGrey, 0.7);
+		border : 1px solid $grey1;
+	}
+	.ForgotPass {
+		text-align: left;
+		margin-bottom: 25px;
+		a {
+			color: $greenCol;
+		}
+	}
+	.SubmitBtn {
+		input {
+			display: block;
+			width: 100%;
+			font-size: 18px;
+		}
+	}
+}
+
+
+
+/******************************
+Login page end
+******************************/
+
+/******************************
+header start
+******************************/
+#header {
+	z-index: 5;
+	.navbar-brand {
+		height: auto;
+		padding: 10px 15px;
+	}
+	.navbar-nav > li > a {
+		line-height: 35px;
+	}
+}
+/******************************
+header end
+******************************/
+/******************************
+Thumb Icons
+******************************/
+#iconContainer {
+	padding: 20px 0 0 0;
+	z-index: 1;
+	.thumb__icon {
+		text-align: center;
+		margin-bottom: 40px;
+		z-index: 9;
+		> a {
+			width: 152px;
+			height: 152px;
+			display: inline-block;
+			line-height: 152px;
+			text-align: center;
+			margin: 0 auto 15px auto;
+			-webkit-transition: .3s ease-in-out;
+			transition: .3s ease-in-out;
+			@include border-radius(50%);
+			img {
+				@extend .thumbAni;
+			}
+		}
+		> a:hover {
+			@include thumbInnerShad();
+		}
+	}
+}
+.tc1 {background-color: #8cd311;}
+.tc2 {background-color: #f99d1b;}
+.tc3 {background-color: #409ad8;}
+.tc4 {background-color: #efbd0f;}
+.tc5 {background-color: #7f4ba4;}
+.tc6 {background-color: #dcd627;}
+.tc7 {background-color: #be4a73;}
+.tc8 {background-color: #aca6a8;}
+.tc9 {background-color: #d7b605;}
+.tc10 {background-color: #60836c;}
+.tc11 {background-color: #abd128;}
+.tc12 {background-color: #ef892f;}
+.tc13 {background-color: #76568d;}
+.tc14 {background-color: #b94c73;}
+.tc15 {background-color: #727e76;}
+.tc16 {background-color: #1b4599;}
+.tc17 {background-color: #e88c0a;}
+.tc18 {background-color: #67bb03;}
+.tc19 {background-color: #d8aa08;}
+/******************************
+Thumb Icons
+******************************/
+/******************************
+Footer start
+******************************/
+#footer {
+	background: $darkBlue;
+	padding: 20px 10px;
+	p { 
+		text-align: center;
+		color: $grey1;
+		font-size: 12px;
+		margin: 0;
+	}
+}
+/******************************
+Footer End
+******************************/
+/******************************
+Catolog start
+******************************/
+#catolog {
+	padding: 50px 0;
+	.DisOprcatolog {
+		width: 100%;
+		padding: 0 5%;
+		> div {
+			@include boxShowoutCat();
+			border:5px solid #eaebeb;
+			height: 340px;
+			position: relative;
+			img {
+				position: absolute;  
+				top: 0;  
+				bottom: 0;  
+				left: 0;  
+				right: 0;  
+				margin: auto;
+				max-width: 100%;
+			}
+		}
+		> p {
+			a {
+				@include border-radius(0px);
+				text-transform: uppercase;
+				padding: 10px 0;
+				font-size: 18px;
+			}
+		}
+	}
+}
+/******************************
+Catolog end
+******************************/
+/******************************
+Error start
+******************************/
+#errorpage {
+	background: #e3e7eb;
+	padding: 30px 0;
+	.error {
+		padding-bottom: 30px;
+	}
+	p {
+		padding-bottom: 30px;
+	}
+	.errorMesg {
+		font-size: 22px;
+		color :red;
+	}
+}
+/******************************
+Error end
+******************************/
+/******************************
+******************************/
+/******************************
+******************************/
+/******************************
+******************************/
+/******************************
+******************************/

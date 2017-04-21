@@ -1,0 +1,28 @@
+html , body {
+	height:100%;
+}
+body {
+	color: $baseFontCol;
+	font-family: $fontFamily;
+	font-size: 16px;
+}
+::-ms-clear { display: none; }
+.container {
+	max-width: 880px;
+}
+.bodyBlock {
+	background: url("../img/inner-page-bg.png") left top no-repeat;
+	background-size: cover;
+	padding: 20px 0 0 0;
+}
+h1 {
+	margin: 0 0 30px 0;
+	font-size: 20px;
+	padding: 0 0 10px 0;
+	border-bottom: 1px solid #DBDADA;
+}
+.error {
+	color:red;
+	font-weight: normal;
+	font-size: 14px;
+}
