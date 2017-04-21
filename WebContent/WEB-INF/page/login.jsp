@@ -9,8 +9,6 @@
 <link href="<c:url value="assets/img/cisco-logo.ico" />" rel="shortcut icon">
 
 <title>NSO Login</title>
-
-
 </head>
 <body>
 	<%String errorVal= (String)request.getParameter("l");%>
