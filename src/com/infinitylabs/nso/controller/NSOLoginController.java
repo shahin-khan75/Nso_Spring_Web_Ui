@@ -17,7 +17,7 @@ import com.infinitylabs.nso.serviceImpl.LoginServiceImpl;
 
 @Controller
 public class NSOLoginController {
-	public final String url = "http://192.168.0.113:8080/jsonrpc";  //Login through NSO url using login Password and username.
+	public final String url = "http://192.168.0.109:8080/jsonrpc";  //Login through NSO url using login Password and username.
 	final static Logger logger = Logger.getLogger(NSOLoginController.class);
 
 	@Autowired
@@ -34,6 +34,7 @@ public class NSOLoginController {
 		model.setViewName("catalogue");
 		return model;
 	}
+	//This is check for GIT
 	//home
 	@RequestMapping("/Popup")
 	public ModelAndView getPopup() {
