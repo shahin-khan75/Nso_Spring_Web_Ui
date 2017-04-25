@@ -8,5 +8,6 @@
 </head>
 <body>
 <a href="loginPage">Login</a> 
+<!-- Comment added -->
 </body>
 </html>
