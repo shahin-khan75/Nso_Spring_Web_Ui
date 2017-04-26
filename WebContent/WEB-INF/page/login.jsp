@@ -4,11 +4,10 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="<c:url value="/nsoassets/css/animate.css" />" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
 <link href="<c:url value="/nsoassets/css/font-awesome.min.css" />" rel="stylesheet">
 <link href="<c:url value="/nsoassets/css/bootstrap.min.css" />" rel="stylesheet">
-<link href="<c:url value="/nsoassetss/css/main.css" />" rel="stylesheet">
+<link href="<c:url value="/nsoassets/css/main.css" />" rel="stylesheet">
 <link href="<c:url value="nsoassets/img/cisco-logo.ico" />" rel="shortcut icon">
 
 <title>NSO Login</title>
@@ -16,7 +15,7 @@
 <body>
 	<%String errorVal= (String)request.getParameter("l");%>
 	<section id="login">
-		<div class="login_Form animated fadeIn">
+		<div class="login_Form">
 			<div class="row" style="margin-top: 5%">
 				<div class="col-xs-12">
 					<div class="logoDiv">
@@ -56,10 +55,6 @@
 	<script src="<c:url value="/assets/js/vendor/bootstrap.min.js" />"></script>
 	<script src="<c:url value="/assets/js/vendor/jquery.validate.min.js" />"></script>
 	<script src="<c:url value="/assets/js/main.js" />"></script>
-
-	<!-- <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
-  	<script src="assets/js/vendor/bootstrap.min.js"></script>
-  	<script src="assets/js/vendor/jquery.validate.min.js"></script>
-  	<script src="assets/js/main.js"></script> -->
+ 
 </body>
 </html>
