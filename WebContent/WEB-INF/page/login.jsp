@@ -5,13 +5,16 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="<c:url value="/assets/css/style.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/animate.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/font-awesome.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/bootstrap.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/main.css" />" rel="stylesheet">
 <link href="<c:url value="assets/img/cisco-logo.ico" />" rel="shortcut icon">
 
 <title>NSO Login</title>
 </head>
 <body>
-	<%String errorVal= (String)request.getParameter("l");%>//commented
+	<%String errorVal= (String)request.getParameter("l");%>
 	<section id="login">
 		<div class="login_Form animated fadeIn">
 			<div class="row" style="margin-top: 5%">
