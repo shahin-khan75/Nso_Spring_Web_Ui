@@ -2,7 +2,7 @@
 	background: $darkBlue;
 	border : 0;
 	margin-bottom: 0;
-	z-index: 10000;
+	z-index: 10;
 	@include border-radius(0px);
 }
 .navbar-default .navbar-nav > li > a {
