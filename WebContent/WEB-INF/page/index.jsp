@@ -6,7 +6,10 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>NSO Catlog</title>
-	<link href="<c:url value="/assets/css/style.css" />" rel="stylesheet">
+	<link href="<c:url value="/assets/css/animate.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/font-awesome.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/bootstrap.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/main.css" />" rel="stylesheet">
 	<link href="<c:url value="assets/img/cisco-logo.ico" />" rel="shortcut icon">
    
   </head>
