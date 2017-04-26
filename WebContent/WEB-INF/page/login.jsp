@@ -11,7 +11,7 @@
 <title>NSO Login</title>
 </head>
 <body>
-	<%String errorVal= (String)request.getParameter("l");%>
+	<%String errorVal= (String)request.getParameter("l");%>//commented
 	<section id="login">
 		<div class="login_Form animated fadeIn">
 			<div class="row" style="margin-top: 5%">
