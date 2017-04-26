@@ -1,0 +1,77 @@
+#header {
+	background-color: $headerBG;
+	padding: 0 25px;
+}
+
+
+
+.searchbar {
+	@include border-radius(5px);
+	background: $dGrey;
+	border:1px solid $borderCol;
+	float: left;
+	padding: 4px 10px;
+	margin: 18px 0 0 0px;
+	input[type='text'] {
+		background-color: transparent;
+		border:0px;
+		min-width: 350px;
+		color : $greCol;
+	}
+	button {
+		background-color: transparent;
+		border:0px;
+	}
+}
+
+.topmenu {
+	float:right;
+	ul {
+		li {
+			float: left;
+			position: relative;
+			a {
+				display: block;
+				text-align: center;
+				padding: 15px 10px 10px 10px;
+				font-size: 13px;
+				i {
+					display: block;
+					height: 25px;
+					padding-bottom: 5px;
+					img {
+						vertical-align: bottom;
+					}
+
+				}
+				span {
+					display: block;
+					color:#fff;
+				}
+			}
+			a:hover {
+				
+			}
+			ul {
+				display: none;
+				position: absolute;
+				background-color: $menuCol;
+				right: 0;
+				margin: 0;
+				padding: 0 0 0 10px;
+				float: left;
+				bottom: -45px;
+				width: 120px;
+				@extend .animation;
+				a {
+					color :#fff;
+					font-size: 14px;
+				}
+			}
+		}
+		li:hover {
+			background-color: $menuCol;
+		}
+	}
+
+}

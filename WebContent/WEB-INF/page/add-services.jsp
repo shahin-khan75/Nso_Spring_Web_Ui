@@ -9,7 +9,11 @@
 	<title>NSO Home page</title>
 	<!-- <link href="../../assets/css/style.css" rel="stylesheet" type="text/css"> -->
 	
-	<link href="<c:url value="/assets/css/style.css" />" rel="stylesheet" type="text/css">
+		<link href="<c:url value="/assets/css/animate.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/font-awesome.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/bootstrap.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/main.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/stylesheet.css" />" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>

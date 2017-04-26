@@ -1,0 +1,43 @@
+html, body {
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	font-family: $fontfamily;
+	font-size: 14px;
+	color : $baseFcolor;
+}
+
+input:focus, 
+textarea:focus {
+    outline: none;
+}
+
+li {
+	list-style: none;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+	color: $baseFcolor;
+}
+ 
+#body__wrapper {
+	margin-left: 275px;
+	background: $bodyBG;
+
+}
+.bodyDiv {
+	padding:25px 25px 0 25px;
+	margin-bottom: 40px;
+	min-height: 450px;
+}
+.blockBody {
+	@include border-radius(1px);
+	background: $white;
+	border:1px solid #cfcece;
+	padding: 30px 30px 30px 30px;
+}
+
+
+ 

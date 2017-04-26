@@ -5,11 +5,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="<c:url value="/assets/css/animate.css" />" rel="stylesheet">
-<link href="<c:url value="/assets/css/font-awesome.min.css" />" rel="stylesheet">
-<link href="<c:url value="/assets/css/bootstrap.min.css" />" rel="stylesheet">
-<link href="<c:url value="/assets/css/main.css" />" rel="stylesheet">
-<link href="<c:url value="assets/img/cisco-logo.ico" />" rel="shortcut icon">
+<link href="<c:url value="/nsoassets/css/animate.css" />" rel="stylesheet">
+<link href="<c:url value="/nsoassets/css/font-awesome.min.css" />" rel="stylesheet">
+<link href="<c:url value="/nsoassets/css/bootstrap.min.css" />" rel="stylesheet">
+<link href="<c:url value="/nsoassetss/css/main.css" />" rel="stylesheet">
+<link href="<c:url value="nsoassets/img/cisco-logo.ico" />" rel="shortcut icon">
 
 <title>NSO Login</title>
 </head>

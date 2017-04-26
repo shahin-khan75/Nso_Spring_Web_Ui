@@ -1,0 +1,30 @@
+.btn-default {
+	@include vertical-gradient(#e2e1e2 , #e8e7e8);
+	@include border-radius(1px)
+	border:1px solid #cecaca;
+	color:#707176;
+}
+
+
+.greyBtn {
+	@include border-radius(30px);
+	background: $grey2;
+	color:$white;
+	padding: 7px;
+	border:1px solid $grey1;
+	-webkit-transition: all .1s;
+	-moz-transition: all .1s;
+	-o-transition: all .1s;
+	transition: all .1s;
+}
+.greyBtn:hover {
+	background: $darkGrey;
+}
+
+.btn-success {
+	@include vertical-gradient(#6cc501 , #69af16);
+	border-color: #578a16;
+	@include border-radius(1px);
+	padding: 7px 25px;
+
+}

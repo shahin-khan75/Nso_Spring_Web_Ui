@@ -1,0 +1,86 @@
+.tabButtons {
+	text-align: right;
+	img {
+		height: 20px;
+		width: auto;
+		margin-right: 5px;
+	}
+}
+
+.workflow_Form {
+	.wfHeading {
+		color:#f47c07;
+		font-size: 17px;
+		margin-bottom: 35px;
+		img {
+			display: inline-block;
+			margin-right: 10px;
+			vertical-align: middle;
+		}
+	}
+	> div {
+		overflow: auto;
+		margin-bottom: 35px;
+		vertical-align: bottom;
+		input {
+			float: left;
+		}
+		label {
+			display: inline-block;
+			font-weight: normal;
+			float: left;
+			margin: 0 25px 0 5px;
+		}
+	}
+} 
+.dragDropWf {
+
+	.wfRd {
+		float: left;
+		width: 25%;
+		margin-right: 5%;
+	}
+	.wfRd1 {
+		float: left;
+		width: 25%;
+		padding-top: 40px;
+		margin-right: 5%;
+	}
+	.list-group {
+		.active {
+			background-color: #747371;
+			border-color : #747371;
+			span {
+				float : right;
+			}
+		}
+		input[type ='checkbox'] {
+			margin-right : 10px;
+		}
+
+	}
+}
+.dropPutList {
+	li {
+		background: #3a80bc;
+		margin-bottom: 2px;
+		border:1px solid #1a5181;
+		padding: 5px 5px 5px 15px;
+		position: relative;
+		a {
+			color : #fff;
+			i {
+				margin-right: 10px;
+			}
+		}
+	}
+	li:after {
+		content: '';
+		position: absolute;
+		right:-40px;
+		top : 1px;
+		height: 26px;
+		width: 26px;
+		background: url("../images/icons/check.png") no-repeat center top;
+	}
+}

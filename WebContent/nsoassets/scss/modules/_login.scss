@@ -1,0 +1,72 @@
+/******************************
+Login page start
+******************************/
+#login {
+	height: 100%;
+	background: #0d1a28 url("../images/login-bg.png") no-repeat center top;
+	background-size: cover;
+	text-align: center;
+	padding-top: 60px;
+	.error { color:yellow;}
+	.logoDiv { padding-bottom: 25px;}
+	.formHeading {padding-bottom: 10px; color :$whiteL1;}
+	.icnLog {
+		border-bottom: 1px solid #aeaeae;
+		display: table;
+		width: 100%;
+		padding:0 15px 0px 15px;
+		margin-bottom: 25px;
+		img {
+			vertical-align: bottom;
+		}
+		input {
+			border:0;
+			background:transparent;
+			width: 100%;
+			color: $whiteL1;
+		}
+		span {
+			display: table-cell;
+			
+			text-align: left;
+
+		}
+		.logImg {
+			width: 10%;
+			min-width: 30px;
+			padding-bottom: 7px;
+		}
+		.logInp {
+			width: 90%;
+			vertical-align: middle;
+		}
+	}
+	.login_Form {
+		width:375px;
+		padding: 25px 40px 40px 40px;
+		margin: 0 auto;
+		@include border-radius(10px);
+		@include background-opacity($darkGrey, 0.7);
+		border : 1px solid $grey1;
+	}
+	.ForgotPass {
+		text-align: left;
+		margin-bottom: 25px;
+		a {
+			color: $greenCol;
+		}
+	}
+	.SubmitBtn {
+		input {
+			display: block;
+			width: 100%;
+			font-size: 18px;
+		}
+	}
+}
+
+
+
+/******************************
+Login page end
+******************************/

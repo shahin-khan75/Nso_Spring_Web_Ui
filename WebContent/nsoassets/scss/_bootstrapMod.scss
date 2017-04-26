@@ -1,0 +1,44 @@
+.nav-tabs {
+	background: $blueTabs;
+	> li {
+		margin-bottom: 1px;
+	}
+	> li > a {
+		border-radius: 0;
+		color : #f4f4f4;
+		border: 1px solid transparent;
+		
+	}
+	li.active > a, 
+	li.active > a:focus, 
+	li.active > a:hover{
+		background: #4791dd;
+			border: 1px solid transparent;
+		border-radius: 0;
+		color : #f4f4f4;
+		position: relative;
+	}
+	li.active > a:after {
+		font-family: FontAwesome;
+		content: "\f0d8";
+		position: absolute;
+		bottom:-1px;
+		height: 18px;
+		left: 50%;
+		font-size: 20px;
+		color:#30344b;
+    	transform: translate(-50%, 0);
+
+	}
+}
+ .nav > li > a:focus, 
+ .nav > li > a:hover {
+ 	background: #4791dd;
+ 			border: 1px solid transparent;
+ }
+ .tab-content {
+ 	background:#fff;
+ 	border:1px solid #cfcece;
+ 	border-top: 0;
+ 	padding: 20px 30px 40px 30px;
+ }

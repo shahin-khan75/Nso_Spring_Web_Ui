@@ -1,0 +1,25 @@
+h2 {
+	color: $blueText;
+	font-size: 17px;
+	margin-bottom: 25px;
+	margin-top: 0;
+	img {
+		display: inline-block;
+		margin-right: 20px;
+	}
+}
+
+h3 {
+	color: #3981b2;
+	font-size: 18px;
+	margin: 0;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	img {
+		vertical-align: middle;
+	}
+}
+.lead {
+	color:#0f5896;
+	font-weight: 400;
+}

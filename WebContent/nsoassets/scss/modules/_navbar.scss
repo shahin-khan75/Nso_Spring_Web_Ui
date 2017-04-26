@@ -1,0 +1,74 @@
+
+#navbar__left {
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	width: 275px;
+	z-index: 0;
+
+	@include vertical-gradient($blueGrad1, $blueGrad2);
+	.div__logo {
+		padding: 27px 0 38px 57px;
+		background: url('../images/top-img.png') right bottom no-repeat;
+	}
+}
+#navbar__left:before {
+	content: "";
+	position: absolute;
+	bottom: 0;
+	left:0;
+	z-index: 0;
+	display: block;
+	height: 240px;
+	width: 100%;
+	background: url('../images/globe.png') left bottom no-repeat;
+}
+ 
+.menu-list {
+	z-index: 10;
+	position: relative;
+	ul {
+		margin: 0;
+		padding:0;
+
+		li {
+			a {
+				display: block;
+				font-size: 16px;
+				color: $greyCol1;
+				padding: 8px 7px 8px 45px;
+				@extend .animation;
+				i {
+					width: 20px;
+					display: inline-block;
+					margin-right: 2px;
+				}
+				span {
+					float: right;
+					margin-right: 20px;
+					margin-top: 3px;
+				}
+			}
+			a:hover , .active {
+				background-color: $navSel;
+				i {
+					color: $yellowHo;
+				}
+			}
+
+
+		}
+	}
+}
+
+.menu-list .sub-menu {
+	background-color:  $navSel;
+	a {
+		padding: 5px 5px 5px 90px;
+		color: $lgtBlue ;
+		border-bottom: 1px solid $blueGrad2;
+	}
+}
+ 
