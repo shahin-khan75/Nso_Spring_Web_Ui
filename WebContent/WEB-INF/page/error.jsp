@@ -7,7 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="shortcut icon" href="assets/img/cisco-logo.ico" />
   <title>NSO Error</title>
-  <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+ 		<link href="<c:url value="/assets/css/animate.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/font-awesome.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/bootstrap.min.css" />" rel="stylesheet">
+<link href="<c:url value="/assets/css/main.css" />" rel="stylesheet">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -57,12 +60,12 @@
         <img src="assets/img/errorIcon.png" alt="">
       </div>
       <p class="text-center errorMesg">Ohh.... you Requested the page that is no longer There</p>
-      <p class="text-center"><a href="<c:url value="home"/>">">BACK TO HOME</a></p>
+      <p class="text-center"><a href="<c:url value="home"/>"> BACK TO HOME</a></p>
     </div>
   </section>
   <!-- error -->
   <footer id="footer" class="animated fadeIn">
-   <p>Â© 2010-2016 Cisco Systems, Inc.</p>
+   <p>© 2010-2016 Cisco Systems, Inc.</p>
  </footer>
  <!-- Footer -->
  <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
