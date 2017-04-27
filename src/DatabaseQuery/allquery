@@ -8,9 +8,9 @@ INSERT INTO [Infinity].[dbo].[USER](User_ID,User_Name) values (2,'User2');
 
 select * from [Infinity].[dbo].[USER];
 
------------------
+------------------
 User_ID User_Name
------------------
-	1	User1
-	2	User2
------------------
+------------------
+	 1	  User1
+	 2	  User2
+------------------
