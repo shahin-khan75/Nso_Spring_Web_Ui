@@ -1,18 +1,23 @@
-Database and Table Creation
+Create table ACTIVITY(Act_ID int(20),Act_Name varchar(50));
 
-Create database Infinity;
+insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(1,'Get_Modification');
+insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(2,'Check_Sync');
+insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(3,'Deep Check Sync');
+insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(4,'Re-Deploy');
+insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(5,'Re-Deploy Dry Run');
+insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(6,'Commit');
+insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(7,'Commit Run');
 
-create table Infinity.USER(User_ID int(20), User_Name varchar(50));
+update [Infinity].[dbo].[ACTIVITY] set Act_Name='Commit Dry Run' where Act_ID = 7;
 
-INSERT INTO [Infinity].[dbo].[USER](User_ID,User_Name) values (1,'User1');
+select * from [Infinity].[dbo].[ACTIVITY];
 
-INSERT INTO [Infinity].[dbo].[USER](User_ID,User_Name) values (2,'User2');
-
-select * from [Infinity].[dbo].[USER];
-
-------------------
-User_ID User_Name
-------------------
-	 1	  User1
-	 2	  User2
-------------------
+ Act_ID	Act_Name
+ --------------------
+	1	Get_Modification
+	2	Check_Sync
+	3	Deep Check Sync
+	4	Re-Deploy
+	5	Re-Deploy Dry Run
+	6	Commit
+	7	Commit Dry Run
