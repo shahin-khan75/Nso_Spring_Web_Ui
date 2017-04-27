@@ -1,3 +1,5 @@
+Database and Table Creation
+
 Create database Infinity;
 
 create table Infinity.USER(User_ID int(20), User_Name varchar(50));
