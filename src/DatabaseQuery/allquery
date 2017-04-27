@@ -11,7 +11,7 @@ INSERT INTO [Infinity].[dbo].[USER](User_ID,User_Name) values (2,'User2');
 
 select * from [Infinity].[dbo].[USER];
 
-USER
+
 ------------------
 User_ID User_Name
 ------------------
