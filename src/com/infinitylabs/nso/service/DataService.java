@@ -7,6 +7,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 public interface DataService {
+//	Methods for Services
 
 	public JSONObject getVPNPath(HttpSession session,String url) throws JSONException ;
 	public void getQueryHeaderId(String path,HttpSession session,String url,String vpnType) throws JSONException ;
