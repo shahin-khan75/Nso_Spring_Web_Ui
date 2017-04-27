@@ -1,6 +1,3 @@
-
-First Created Database and then Table named USER
-
 Create database Infinity;
 
 create table Infinity.USER(User_ID int(20), User_Name varchar(50));
