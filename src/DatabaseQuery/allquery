@@ -1,24 +1,12 @@
-mysql> desc INPUT;
-+------------+-------------+------+-----+---------+----------------+
-| Field      | Type        | Null | Key | Default | Extra          |
-+------------+-------------+------+-----+---------+----------------+
-| Input_ID   | int(11)     | NO   | PRI | NULL    | auto_increment |
-| Input_Name | varchar(20) | NO   |     | NULL    |                |
-| Service_ID | int(2)      | NO   | MUL | NULL    |                |
-+------------+-------------+------+-----+---------+----------------+
-3 rows in set (0.00 sec)
-
-mysql> select * from INPUT;
-+----------+------------------+------------+
-| Input_ID | Input_Name       | Service_ID |
-+----------+------------------+------------+
-|        1 | Add_Service_Name |          1 |
-|        2 | PW_ID            |          1 |
-|        3 | Device_1         |          1 |
-|        4 | Device_2         |          1 |
-|        5 | Intf_Number_1    |          1 |
-|        6 | Intf_Number_2    |          1 |
-|        7 | Remote_IP_1      |          1 |
-|        8 | Remote_IP_2      |          1 |
-+----------+------------------+------------+
-8 rows in set (0.00 sec)
+mysql> desc User;
++--------------------+---------------+------+-----+---------+----------------+
+| Field              | Type          | Null | Key | Default | Extra          |
++--------------------+---------------+------+-----+---------+----------------+
+| UID                | int(11)       | NO   | PRI | NULL    | auto_increment |
+| User_Name          | varchar(16)   | NO   |     | NULL    |                |
+| Encrypted_Password | varchar(100)  | NO   |     | NULL    |                |
+| NSO_User           | enum('Y','N') | NO   |     | NULL    |                |
+| Escalation_1       | varchar(20)   | NO   |     | NULL    |                |
+| Escalation_2       | varchar(20)   | NO   |     | NULL    |                |
+| Escalation_3       | varchar(20)   | NO   |     | NULL    |                |
++--------------------+---------------+------+-----+---------+----------------+
