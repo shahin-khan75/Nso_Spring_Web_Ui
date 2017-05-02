@@ -1,23 +1,24 @@
-Create table ACTIVITY(Act_ID int(20),Act_Name varchar(50));
+mysql> create table SERVICES
+    -> (Service_ID INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    -> Service_Name VARCHAR(20));
+Query OK, 0 rows affected (0.09 sec)
 
-insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(1,'Get_Modification');
-insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(2,'Check_Sync');
-insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(3,'Deep Check Sync');
-insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(4,'Re-Deploy');
-insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(5,'Re-Deploy Dry Run');
-insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(6,'Commit');
-insert into [Infinity].[dbo].[ACTIVITY] (Act_ID,Act_Name) values(7,'Commit Run');
+mysql> DESC SERVICES;
++--------------+-------------+------+-----+---------+----------------+
+| Field        | Type        | Null | Key | Default | Extra          |
++--------------+-------------+------+-----+---------+----------------+
+| Service_ID   | int(11)     | NO   | PRI | NULL    | auto_increment |
+| Service_Name | varchar(20) | YES  |     | NULL    |                |
++--------------+-------------+------+-----+---------+----------------+
+2 rows in set (0.00 sec)
 
-update [Infinity].[dbo].[ACTIVITY] set Act_Name='Commit Dry Run' where Act_ID = 7;
 
-select * from [Infinity].[dbo].[ACTIVITY];
-
- Act_ID	Act_Name
- --------------------
-	1	Get_Modification
-	2	Check_Sync
-	3	Deep Check Sync
-	4	Re-Deploy
-	5	Re-Deploy Dry Run
-	6	Commit
-	7	Commit Dry Run
+mysql>
+mysql> select * from SERVICES;
++------------+--------------+
+| Service_ID | Service_Name |
++------------+--------------+
+|          1 | L2VPN        |
+|          2 | L3MPLSVPN        |
++------------+--------------+
+2 rows in set (0.00 sec)
