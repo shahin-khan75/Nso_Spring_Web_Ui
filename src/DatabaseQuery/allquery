@@ -1,12 +1,17 @@
-mysql> desc User;
-+--------------------+---------------+------+-----+---------+----------------+
-| Field              | Type          | Null | Key | Default | Extra          |
-+--------------------+---------------+------+-----+---------+----------------+
-| UID                | int(11)       | NO   | PRI | NULL    | auto_increment |
-| User_Name          | varchar(16)   | NO   |     | NULL    |                |
-| Encrypted_Password | varchar(100)  | NO   |     | NULL    |                |
-| NSO_User           | enum('Y','N') | NO   |     | NULL    |                |
-| Escalation_1       | varchar(20)   | NO   |     | NULL    |                |
-| Escalation_2       | varchar(20)   | NO   |     | NULL    |                |
-| Escalation_3       | varchar(20)   | NO   |     | NULL    |                |
-+--------------------+---------------+------+-----+---------+----------------+
+MASTER_INPUT_DATA;
++---------------------+---------------+------+-----+---------+----------------+
+| Field               | Type          | Null | Key | Default | Extra          |
++---------------------+---------------+------+-----+---------+----------------+
+| ID                  | int(11)       | NO   | PRI | NULL    | auto_increment |
+| Add_Service_Name    | varchar(20)   | NO   |     | NULL    |                |
+| Add_Input_Parameter | varchar(50)   | NO   |     | NULL    |                |
+| PW_ID               | int(20)       | NO   |     | NULL    |                |
+| Device_1            | varchar(20)   | NO   |     | NULL    |                |
+| Device_2            | varchar(20)   | NO   |     | NULL    |                |
+| Intf_Number_1       | int(20)       | NO   |     | NULL    |                |
+| Intf_Number_2       | int(20)       | NO   |     | NULL    |                |
+| Remote_IP_1         | varbinary(16) | NO   |     | NULL    |                |
+| Remote_IP_2         | varbinary(16) | NO   |     | NULL    |                |
+| Service_ID          | int(10)       | NO   | MUL | NULL    |                |
+| Act_ID              | int(10)       | NO   | MUL | NULL    |                |
++---------------------+---------------+------+-----+---------+----------------+
